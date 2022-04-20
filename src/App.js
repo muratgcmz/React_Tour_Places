@@ -1,14 +1,16 @@
-import "./App.scss"
-import Navbar from "./components/Navbar/Navbar"
+import "./App.scss";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import Navbar from "./components/Navbar/Navbar";
 
-const App = () => {
+function App() {
   return (
     <div className="App">
-      <h1>Welcome React</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-      <Navbar/>
+      <Navbar />
+      <Header />
+      <Main />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
